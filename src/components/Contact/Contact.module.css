@@ -1,0 +1,30 @@
+.card-items {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.card-item {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.card-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: white;
+  color: rgb(60, 60, 60);
+  border: 1px solid rgb(60, 60, 60);
+  transition: color cubic-bezier(0, 4, 1, 4) 250ms;
+}
+.card-btn:hover,
+.card-btn:focus {
+  background-color: rgb(60, 60, 60);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
